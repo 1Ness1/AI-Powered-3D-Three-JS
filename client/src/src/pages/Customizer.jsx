@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useSnapshot } from 'valtio';
 
-import config from '../config/config';
-import state from '../store';
-import { download } from '../assets';
-import { downloadCanvasToImage, reader } from '../config/helpers';
-import { EditorTabs, FilterTabs, DecalTypes } from '../config/constants';
-import { fadeAnimation, slideAnimation } from '../config/motion';
+import config from '../config/config.js';
+import state from '../store/index.js';
+import { download } from '../assets/index.js';
+import { downloadCanvasToImage, reader } from '../config/helpers.js';
+import { EditorTabs, FilterTabs, DecalTypes } from '../config/constants.js';
+import { fadeAnimation, slideAnimation } from '../config/motion.js';
 
 import {
   AIPicker,
@@ -15,7 +15,7 @@ import {
   CustomButton,
   FilePicker,
   Tab,
-} from '../components';
+} from '../components/index.js';
 
 const Customizer = () => {
   const snap = useSnapshot(state);
