@@ -65,7 +65,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
       const response = await fetch(
-        'https://ai-powered-3d-three-js.onrender.com/api/v1/dalle',
+        'http://localhost:8080/api/v1/dalle',
         {
           method: 'POST',
           headers: {
