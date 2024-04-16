@@ -7,6 +7,8 @@ Main technologies:
 - [Valtio](https://www.npmjs.com/package/valtio)
 - [Framer Motion](https://www.npmjs.com/package/framer-motion)
 - [openai](https://www.npmjs.com/package/openai)
+- [node](https://www.npmjs.com/package/node)
+- [express](https://www.npmjs.com/package/express)
 
 
 ![GENERATE ALL THE MEMES](intro.png)
